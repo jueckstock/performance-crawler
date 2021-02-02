@@ -1,0 +1,26 @@
+{
+  "name": "performance-crawler",
+  "version": "1.0.0",
+  "description": "Puppeteer-based mini-crawler for evaluating storage policy performance.",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jueckstock/performance-crawler.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jueckstock/performance-crawler/issues"
+  },
+  "homepage": "https://github.com/jueckstock/performance-crawler#readme",
+  "dependencies": {
+    "am": "^1.1.0",
+    "publicsuffixlist": "^0.3.0",
+    "puppeteer-core": "^6.0.0",
+    "rimraf": "^3.0.2",
+    "xvfb": "^0.4.0"
+  }
+}
